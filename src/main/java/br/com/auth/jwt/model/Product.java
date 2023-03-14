@@ -15,7 +15,7 @@ import java.util.UUID;
 public class Product {
     @Id
     @GeneratedValue
-    private UUID id;
+    private int id;
     @Column(unique = true)
     private String name;
 
